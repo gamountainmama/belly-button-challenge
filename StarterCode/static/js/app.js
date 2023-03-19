@@ -84,7 +84,7 @@ function plots(id){
         value: wfreq,
         title: {text: '<b>Belly Button Washing Frequency</b><br>Scrubs per Week'},
         type: 'indicator',
-        mode: 'gauge+indicator',
+        mode: 'gauge+number',
         gauge:{
             axis: {range: [null, 9]},
             steps: [
